@@ -1,0 +1,29 @@
+/* style.css */
+:root{
+    --home-color:#A4DCD7;
+    --about-me-color:#E88888;
+    --works-color:#FDB29B;
+    --contact-color:#FFD09C;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color:#000;
+}
+
+ul{
+    list-style-type: none;
+
+}
+body{
+    width: 100%;
+    font-family: 'Nanum Pen Script', cursive;
+    max-width: 1920px;
+    min-width:1600px;
+    
+}
