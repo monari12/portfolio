@@ -1,0 +1,163 @@
+/* wp-sub1- 웹퍼블리싱서브페이지 */
+.wp-hanil{
+    width: 100%;
+   height: 100vh;
+}
+.sub-container{
+    width: 1280px;
+    height: 100%;
+    /* outline:1px solid blue; */
+    display: flex;
+    margin: 0 auto;
+}
+.thumbnail-box, .sub-text-box{
+    width: 50%;
+    /* outline:1px solid blueviolet; */
+    display: flex;
+    align-items: center;
+}
+.thumbnail-box{
+    background-image: url(../images/thumbnail-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 46%;
+    background-position: left 44%;
+    padding-left: 80px;
+}
+.tb2{
+    background-image: url(../images/thumbnail.bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 53%;
+    background-position: left 44%;
+}
+.tb3{
+    background-image: url(../images/thumbnail-bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: 53%;
+    background-position: left 44%;
+}
+.sub-text-box{
+    padding:0 90px;
+
+}
+.center-box h2{
+    font-size:40px;
+    font-weight:500;
+    margin-bottom: 124px;
+}
+.wp-color{
+    color:#8ABFCC;
+    margin-right: 10px;
+}
+.wp-h4-color{
+    font-size:30px;
+    color:#8ABFCC;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.center-box p{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:16px;
+}
+.work-detail-words{
+    margin-left: 120px;
+}
+.color-flex{
+    display: flex;
+    margin-left: 146px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.circle{
+    width: 34px;
+    height: 34px;  
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.color-1212A2{
+    background-color:#1212A2;
+}
+.color-E9AD08{
+    background-color:#E9AD08;
+}
+.color-26722E{
+    background-color:#26722E;
+}
+.work-description{
+    line-height: 40px;
+    padding-left: 80px;
+    margin-bottom: 90px;
+}
+
+/* 사이트 바로가기 */
+.site-view{
+    display: block;
+    width: 200px;
+    height: 50px;
+    color:#fff;
+    background-color: #4E7466;
+    font-size:30px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 36px;
+    
+}
+.sv1{
+    margin-left: 170px;
+}
+.site-view:hover{
+    color:#4E7466;
+    background-color: transparent;
+    border:2px solid #4E7466;
+}
+
+/* 로슈 */
+.flex-reverse{
+    flex-direction: row-reverse;
+}
+.wp-roche{
+    margin-top: 100px;
+}
+.roche-title{
+    margin-left: 50px;
+}
+.color-0066CC{
+    background-color:#0066CC;
+}
+.roche-color{
+    margin-top: 40px;
+}
+.mb60{
+    margin-bottom: 60px;
+}
+.sv2{
+    background-color: #4395C5;
+    margin-left: 120px;
+}
+.sv2:hover{
+    color:#4395C5;
+    background-color: transparent;
+    border:2px solid #4395C5;
+}
+/* 모바일 청접장 */
+.mobile-wedding{
+    margin-top: 100px;
+}
+.mb-wedding-title{
+    margin-left: 80px;
+}
+.color-E3A831{
+    background-color: #E3A831;
+}
+.color-FFFDE6{
+    background-color: #FFFDE6;
+    border:1px solid #BFBDBD;
+}
+.sv3{
+    background-color: #E88888;
+    margin-left: 170px; 
+}
+.sv3:hover{
+    color:#E88888;
+    background-color: transparent;
+    border:2px solid #E88888;
+}

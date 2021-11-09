@@ -1,0 +1,71 @@
+/* ui/ux 서브페이지*/
+/* 오늘의배달 */
+.ob-bg{
+    background-image: url(../images/ob-bg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: left 90%;
+    padding-left: 120px;
+}
+.color-8545FD{
+    background-color: #8545FD;
+}
+.uiux-color{
+    color:#9976BC;
+    margin-right: 20px;
+}
+.uiux-h4-color{
+    font-size:30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color:#9976BC;
+}
+.word-uiux-words{
+    margin-left: 160px;
+}
+.sv4{
+    margin-left: 120px;
+    background-color: #9976BC;
+}
+.sv4:hover{
+    color:#9976BC;
+    background-color: transparent;
+    border:2px solid #9976BC;
+}
+/* 디올 */
+.thumbnail-box2{
+    width: 50%;
+    /* outline:1px solid blueviolet; */
+    display: flex;
+    align-items: center;
+    background-image: url(../images/dior-bg.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: left 90%;
+    padding-left: 100px;
+}
+.color-EEEEEE{
+    background-color: #EEEEEE;
+    border:1px solid #D8D7D7;
+}
+.color-919191{
+    background-color: #919191;
+}
+.color-000000{
+    background-color: #000;
+}
+.sv5{
+    background-color: #3C3C3D;
+    margin-left: 170px; 
+}
+.sv5:hover{
+    color:#3C3C3D;
+    background-color: transparent;
+    border:2px solid #3C3C3D;
+}
+.dior-title{
+    margin-left: 30px;
+}
+.work-dior-works{
+    margin-left: 210px;
+}
