@@ -1,0 +1,45 @@
+/* graphic */
+.sub3-container{
+    width: 1280px;
+    height: 100%;
+    display:flex;
+    margin:0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* outline:1px solid red; */
+}
+.graphic-title{
+    text-align: center;
+    font-size:55px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color:var(--about-me-color);
+}
+
+.graphic-box{
+    margin:0 20px;
+    text-align: center;
+}
+.graphic-box .rotate{
+    object-fit: cover;
+    transition-duration: .5s;
+    display: block;
+    margin-bottom: 20px;
+}
+.graphic-box .rotate:hover{
+    transform:rotate(6deg);
+}
+.graphic-box a{
+    display: block;
+    font-size:30px;
+    margin-top: 26px;
+}
+.graphic-box a:hover{
+    opacity:0.8;
+}
+
+.click-here:hover{
+    transform:scale(1.1);
+}
