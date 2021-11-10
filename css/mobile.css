@@ -335,47 +335,46 @@ h1 span {
 }
 .sub-container{
     width: 100%;
-    outline:1px solid blue;
+    /* outline:1px solid blue; */
 }
 .thumbnail-box{
     background-color: #D8E4DA;
     width: 100%;
-    height: 400px;
+    height: 800px;
     padding-top: 60px;
     text-align: center;
 }
 .thumbnail-box img{
-    width: 90%;
-    height: 300px;
+    width: 95%;
+    height: 700px;
     object-fit:cover;
     object-position: top;
     box-shadow: 0 3px 16px rgba(0, 0, 0, .2);
-
 }
 .tb2{
-    background-color: #D8E4DA;
+    background-color: #D5EDF5;
     width: 100%;
-    height: 400px;
+    height: 800px;
     padding-top: 60px;
     text-align: center;
 }
 .tb3{
-    background-color: #D8E4DA;
+    background-color: #ffe6e8;
     width: 100%;
-    height: 400px;
+    height: 800px;
     padding-top: 60px;
     text-align: center;
 }
 .center-box h2{
     text-align: center;
-    font-size:30px;
+    font-size:28px;
     font-weight:500;
     margin-top: 30px;
     margin-bottom: 60px;
 }
 .wp-color{
     color:#8ABFCC;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .wp-h4-color{
     font-size:26px;
@@ -383,23 +382,25 @@ h1 span {
     font-weight: 500;
     margin-bottom: 20px;
     margin-left: 20px;
+    margin-top: 40px;
 }
 .center-box p{
     font-family: 'Noto Sans KR', sans-serif;
     font-size:16px;
+    text-align: center;
 }
 .work-detail-words{
-    margin-left: 120px;
+    margin-bottom: 30px;
 }
 .color-flex{
     display: flex;
-    margin-left: 146px;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 .circle{
-    width: 34px;
-    height: 34px;  
+    width: 30px;
+    height: 30px;  
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -414,26 +415,24 @@ h1 span {
 }
 .work-description{
     line-height: 40px;
-    padding-left: 80px;
-    margin-bottom: 90px;
+    padding: 0 30px;
+    margin-bottom: 50px;
 }
 
 /* 사이트 바로가기 */
 .site-view{
-    display: block;
+    display:block;
     width: 200px;
     height: 50px;
     color:#fff;
     background-color: #4E7466;
-    font-size:30px;
+    font-size:26px;
     text-align: center;
     line-height: 50px;
     border-radius: 36px;
-    
+    margin:0 auto;
 }
-.sv1{
-    margin-left: 170px;
-}
+
 .site-view:hover{
     color:#4E7466;
     background-color: transparent;
@@ -441,14 +440,9 @@ h1 span {
 }
 
 /* 로슈 */
-.flex-reverse{
-    flex-direction: row-reverse;
-}
+
 .wp-roche{
     margin-top: 100px;
-}
-.roche-title{
-    margin-left: 50px;
 }
 .color-0066CC{
     background-color:#0066CC;
@@ -461,7 +455,7 @@ h1 span {
 }
 .sv2{
     background-color: #4395C5;
-    margin-left: 120px;
+
 }
 .sv2:hover{
     color:#4395C5;
@@ -472,9 +466,6 @@ h1 span {
 .mobile-wedding{
     margin-top: 100px;
 }
-.mb-wedding-title{
-    margin-left: 80px;
-}
 .color-E3A831{
     background-color: #E3A831;
 }
@@ -484,10 +475,125 @@ h1 span {
 }
 .sv3{
     background-color: #E88888;
-    margin-left: 170px; 
+    margin-bottom: 100px;
 }
 .sv3:hover{
     color:#E88888;
     background-color: transparent;
     border:2px solid #E88888;
+}
+
+/* ******************************************************************* */
+/* ui/ux 서브페이지*/
+/* 오늘의배달 */
+.ob-bg{
+    background-color: #E0E0EE;
+    width: 100%;
+    height: 500px;
+}
+.ob-bg img{
+    width: 70%;
+    height: 430px;
+    box-shadow: none;
+}
+.color-8545FD{
+    background-color: #8545FD;
+}
+.uiux-color{
+    color:#9976BC;
+    margin-right: 20px;
+}
+.uiux-h4-color{
+    font-size:26px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color:#9976BC;
+    margin-left: 10px;
+}
+.sv4{
+    background-color: #9976BC;
+}
+.sv4:hover{
+    color:#9976BC;
+    background-color: transparent;
+    border:2px solid #9976BC;
+}
+/* 디올 */
+.thumbnail-box2{
+    background-color: #DBDBDB;
+    width: 100%;
+    height: 500px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.thumbnail-box2 img{
+    width: 70%;
+    height: 430px;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: none;
+}
+.color-EEEEEE{
+    background-color: #EEEEEE;
+    border:1px solid #D8D7D7;
+}
+.color-919191{
+    background-color: #919191;
+}
+.color-000000{
+    background-color: #000;
+}
+.sv5{
+    background-color: #3C3C3D;
+    margin-bottom: 100px;
+}
+.sv5:hover{
+    color:#3C3C3D;
+    background-color: transparent;
+    border:2px solid #3C3C3D;
+    
+}
+/* ************************************************************************* */
+/* graphic */
+.sub3-container{
+    width: 100%;
+    display:flex;
+    margin:0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* outline:1px solid red; */
+    padding-bottom: 100px;
+}
+.graphic-title{
+    text-align: center;
+    font-size:55px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color:var(--about-me-color);
+}
+
+.graphic-box{
+    margin:0 20px;
+    text-align: center;
+}
+.graphic-box .rotate{
+    object-fit: cover;
+    transition-duration: .5s;
+    display: block;
+    margin-bottom: 20px;
+}
+.graphic-box .rotate:hover{
+    transform:rotate(6deg);
+}
+.graphic-box a{
+    display: block;
+    font-size:30px;
+    margin-top: 26px;
+}
+
+.click-here:hover{
+    transform:scale(1.1);
 }
