@@ -1,5 +1,8 @@
 /* pc.css */
-
+body{
+    max-width: 1920px;
+    min-width:1600px;
+}
 /* 첫페이지 */
 /* 메뉴 */
 #gnb{
@@ -11,7 +14,6 @@
     right:0;
     z-index:1;
 }
-
 #gnb li{
     width: 60px;
     height: 140px;
@@ -298,11 +300,13 @@ h1 span {
     width: 100%;
     background-image: url(../images/contact-bg.jpg);
     background-size:cover;
+    background-position: center;
 }
 #contact > .container3{
     width:1280px;
     margin:0 auto;
     text-align: center;
+    padding-bottom: 150px;
 }
 .container3 h4{
     font-size:60px;
@@ -311,16 +315,17 @@ h1 span {
     margin-top: 16px;
 }
 .contact-smile{
-    margin-top: 134px;
+    margin-top: 8px;
 }
 .mirror-selfie{
     /* outline:1px solid red; */
-    width: 390px;
-    height: 360px;
-    background-image: url(../images/contact-selfie.jpg);
-    background-size:cover;
-    background-position: center center;
+    width: 30%;
+    height: 30%;
     margin:0 auto;
+}
+.mirror-selfie img{
+    width: 100%;
+    height: 100%;
 }
 .container3 p{
     font-size:40px;
@@ -330,7 +335,5 @@ h1 span {
     margin-top: 60px;
     margin-bottom: 16px;
 }
-.email{
-    margin-bottom: 152px;
-}
+
 

@@ -18,15 +18,9 @@
     <!-- pc.css -->
     <link
       rel="stylesheet"
-      href="css/pc.css"
-      media="screen and (min-width:768px)"
+      href="css/pc.css" media="(min-width:768px)"
     />
-    <!-- mobile.css -->
-    <link
-      rel="stylesheet"
-      href="css/mobile.css"
-      media="screen and (max-width:767px)"
-    />
+    <link rel="stylesheet" href="css/mobile.css" media="(max-width:767px)">
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- jquery -->
@@ -65,7 +59,7 @@
             <span>i</span>
             <span>o</span>
           </h1>
-          <p>Web Publisher & Designer</p>
+          <p class="main-subtitle">Web Publisher & Designer</p>
           <p class="name">최수진</p>
         </div>
       </div>
@@ -85,12 +79,11 @@
             <img src="images/aboutmes-sticker.png" alt="스마일스티커" />
           </div>
           <div class="text-profile">
-            <h3 class="title">profile</h3>
+            <h3 class="title profile">profile</h3>
             <p class="sub-name">최수진</p>
             <p class="birthday">1994.12.22</p>
           </div>
         </div>
-
         <div class="text-container" data-aos="fade-left"
         data-aos-easing="linear"
         data-aos-duration="2000">
@@ -109,7 +102,7 @@
           </div>
           <div class="skills-box">
             <h3 class="title skills">Education</h3>
-            <p>
+            <p class="eduction-sub">
               2021.07 ~ 2021.11 김포이젠아카데미 <br />
               모바일 UI/UX 반응형 웹디자인(웹퍼블리셔) 과정수료
             </p>
@@ -127,16 +120,18 @@
             <img
               src="images/st1.png"
               alt="클릭스티커"
-              class="click-sticker1"
+              class="click-sticker1 cst1"
             />
             <a href="works-wp-sub1.html" class="sub-title text-hover">웹퍼블리싱 상세보기</a>
           </div>
           <div class="category-flex">
-            <a href="works-uiux-sub2.html"><div class="ui-ux-img img-hover"></div></a>
+            <a href="works-uiux-sub2.html">
+              <div class="ui-ux-img img-hover"></div>
+            </a>
             <img
               src="images/st2.png"
               alt="클릭스티커"
-              class="click-sticker1"
+              class="click-sticker1 cst2"
             />
             <a href="works-uiux-sub2.html" class="sub-title text-hover2">UI/UX 상세보기</a>
           </div>
@@ -145,7 +140,7 @@
             <img
               src="images/st3.png"
               alt="클릭스티커"
-              class="click-sticker1"
+              class="click-sticker1 cst3"
             />
             <a href="works-graphic-sub3.html" class="sub-title text-hover3">GRAPHIC 상세보기</a>
           </div>
@@ -155,13 +150,16 @@
 
     <section id="contact">
       <div class="container3">
-        <img src="images/smile.png" alt="스마일" class="contact-smile" />
+        <div class="contact-img-box">
+          <img src="images/smile.png" alt="스마일" class="contact-smile" />
+        </div>
         <h4>CONTACT ME</h4>
-        <div class="mirror-selfie"></div>
+        <div class="mirror-selfie">
+          <img src="images/contact-selfie.png" alt="">
+        </div>
         <p class="phone-num">TEL: 010 8296 5702</p>
         <p class="email">EMAIL: soojin3927@naver.com</p>
       </div>
-      }
     </section>
   </body>
 </html>
