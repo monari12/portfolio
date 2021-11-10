@@ -36,9 +36,6 @@
     font-size:30px;
     margin-top: 26px;
 }
-.graphic-box a:hover{
-    opacity:0.8;
-}
 
 .click-here:hover{
     transform:scale(1.1);
