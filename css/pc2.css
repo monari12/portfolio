@@ -162,3 +162,13 @@
     background-color: transparent;
     border:2px solid #E88888;
 }
+#over-view-container{
+    width: 100%;
+}
+#over-view-container .pc-ov{
+    width: 100%;
+    height: 100%;
+}
+#over-view-container .mobile-ov{
+    display: none;
+}
