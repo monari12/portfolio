@@ -284,15 +284,17 @@ h1 span {
     padding-bottom: 200px;
 
 }
-
-.text-hover:hover{
-    color:#BED3C1;
+.text-hover{
+    color:#6c9b73;
 }
-.text-hover2:hover{
-    color:#CCCBE3;
+.text-hover2{
+    color:#af5fce;
 }
-.text-hover3:hover{
-    color:#FFD09C;
+.text-hover3{
+    color:#f8a240;
+}
+.sub-title:hover{
+    opacity: 0.6;
 }
 
 /* contact */
