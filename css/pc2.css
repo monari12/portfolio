@@ -20,10 +20,11 @@
 .thumbnail-box{
     background-image: url(../images/thumbnail-bg1.jpg);
     background-repeat: no-repeat;
-    background-size: 46%;
+    background-size: 53%;
     background-position: left 44%;
     padding-left: 80px;
 }
+
 .tb2{
     background-image: url(../images/thumbnail.bg2.jpg);
     background-repeat: no-repeat;
@@ -37,7 +38,7 @@
     background-position: left 44%;
 }
 .tb4{
-    background-image: url(../images/thumbnail-bg4.jpg);
+    background-image: url(../images/thumbnail-bg5.jpg);
     background-repeat: no-repeat;
     background-size: 53%;
     background-position: right 44%;
@@ -197,13 +198,13 @@
     background-color: #2faeff;
 }
 .sv6{
-    background-color: #EF639F;
+    background-color: #000;
     margin-left: 140px; 
 }
 .sv6:hover{
-    color:#EF639F;
+    color:#000;
     background-color: transparent;
-    border:2px solid #EF639F;
+    border:2px solid #000;
 }
 .pc-jyp-img{
     padding-left: 24px;
@@ -215,7 +216,7 @@
     overflow: hidden;
     position:absolute;
     bottom: 6%;
-    left:-2%;
+    left:5%;
 
 }
 .mobile-jyp-img{
