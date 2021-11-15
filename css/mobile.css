@@ -141,6 +141,7 @@ h1 span {
 #about-me{
     width: 100%;
     overflow: hidden;
+    padding-top: 50px;
 }
 .container{
     width: 100%;
@@ -185,6 +186,7 @@ h1 span {
     left:50%;
     transform: translateX(-50%);
     z-index: 4;
+    display: none;
 }
 .tape img{
     width: 100%;
@@ -385,6 +387,15 @@ h1 span {
     padding-top: 60px;
     text-align: center;
 }
+.tb4{
+    background-color: #F19BC2;
+    width: 100%;
+    height: 800px;
+    padding-top: 60px;
+    text-align: center;
+    position:relative;
+
+}
 .center-box h2{
     text-align: center;
     font-size:28px;
@@ -502,7 +513,34 @@ h1 span {
     background-color: transparent;
     border:2px solid #E88888;
 }
+/* jyp 리뉴얼  */
+.wp-jyp{
+    margin-top: 100px;
+}
+.sub-text-box2{
+    width: 100%;
+}
+.color-2faeff{
+    background-color: #2faeff;
+}
+.sv6{
+    background-color: #EF639F;
+    margin-bottom: 100px;
+}
+.sv6:hover{
+    color:#EF639F;
+    background-color: transparent;
+    border:2px solid #EF639F;
+}
 
+.imgbox{
+    display: none;
+
+}
+.mobile-jyp-img{
+    width: 100%;
+    height: 100%;   
+}
 /* ******************************************************************* */
 /* ui/ux 서브페이지*/
 /* 오늘의배달 */
